@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.myapplication.RegisterActivity"
+    android:background="#06bcfd">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#06bcfd"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="49dp"
+            android:layout_height="45dp"
+            android:background="@drawable/img_04" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="注册"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="8"
+        android:src="@drawable/bg_register_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="391dp"
+        android:layout_height="169dp"
+        android:src="@drawable/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="412dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:src="@drawable/ic_register_nickname"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:src="@drawable/ic_register_pwd"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:src="@drawable/ic_register_phone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ImageView
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:src="@drawable/ic_register_gender"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:layout_width="237dp"
+        android:layout_height="31dp"
+        android:hint="请输入昵称"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:layout_width="237dp"
+        android:layout_height="31dp"
+        android:hint="请输入手机号"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <EditText
+        android:layout_width="237dp"
+        android:layout_height="31dp"
+        android:hint="请输入密码"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <EditText
+        android:layout_width="237dp"
+        android:layout_height="31dp"
+        android:hint="请输入性别（男/女）"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:background="#1fa4f6"
+        android:text="注册"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="463dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
